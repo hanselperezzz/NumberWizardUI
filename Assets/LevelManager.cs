@@ -10,6 +10,7 @@ public class LevelManager : MonoBehaviour {
 
 	public void QuitLevel(string name) {
 		Debug.Log ("Quit level.");
+		Application.Quit ();
 	}
 
 }
