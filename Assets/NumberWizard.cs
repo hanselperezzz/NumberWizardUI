@@ -9,7 +9,7 @@ public class NumberWizard : MonoBehaviour {
 	int min;
 	int guess;
 
-	public int maxGuessesAllowed = 5;
+	public int maxGuessesAllowed = 20;
 
 	public Text text;
 	
@@ -43,7 +43,7 @@ public class NumberWizard : MonoBehaviour {
 	void NextGuess () {
 		guess = Random.Range(min,max+1);
 		text.text = guess.ToString();
-		maxGuessesAllowed = maxGuessesAllowed - 1;
+		maxGuessesAllowed = maxGuessesAllowed;
 		if (maxGuessesAllowed <= 0) {
 			Application.LoadLevel("Win");
 		}

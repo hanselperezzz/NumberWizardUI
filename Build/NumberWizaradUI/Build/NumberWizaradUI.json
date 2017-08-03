@@ -1,0 +1,9 @@
+{
+"TOTAL_MEMORY": 268435456,
+"dataUrl": "NumberWizaradUI.data.unityweb",
+"asmCodeUrl": "NumberWizaradUI.asm.code.unityweb",
+"asmMemoryUrl": "NumberWizaradUI.asm.memory.unityweb",
+"asmFrameworkUrl": "NumberWizaradUI.asm.framework.unityweb",
+"splashScreenStyle": "Dark",
+"backgroundColor": "#231F20"
+}
