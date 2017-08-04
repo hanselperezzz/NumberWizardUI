@@ -1,7 +1,7 @@
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2008
 
-Project("{4A49CCC2-898F-B236-8E81-8D661D20E27F}") = "NumberWizardUI", "Assembly-CSharp.csproj", "{15698281-AD0E-B887-4BBA-2109AA801257}"
+Project("{4A49CCC2-898F-B236-8E81-8D661D20E27F}") = "NumberWizardUI", "Assembly-CSharp-vs.csproj", "{15698281-AD0E-B887-4BBA-2109AA801257}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,7 +17,7 @@ Global
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
-			GlobalSection(MonoDevelopProperties) = preSolution
+				GlobalSection(MonoDevelopProperties) = preSolution
 		StartupItem = Assembly-CSharp.csproj
 	EndGlobalSection
 
